@@ -6,11 +6,7 @@
 #
 
 
-make: vsh.cpp parser.cpp scanner.o vsh_var.h token.h
-        g++ -o vsh -W -Wall vsh.cpp parser.cpp scanner.o vsh_var.h token.h
-
-scanner.o: scanner.cpp token.h
-        g++ -c -W -Wall scanner.cpp token.h
+make: myDBMS.cpp myBP.cpp myMEM.cpp 
+	g++ -o myDBMS myDBMS.cpp myBP.cpp myMEM.cpp
 
 clean:
-        rm scanner.o token.h.gch vsh_var.h.gch
