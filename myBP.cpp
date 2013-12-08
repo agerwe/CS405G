@@ -1,35 +1,36 @@
 #include <cstdlib>
+#include "page.h"
 
 using namespace std;
 
-public void Insert(element X)
+void Insert(page p)
 {
 
 }
 
-public void Delete(element X)
+void Delete(page p)
 {
 
 }
 
-public int Size()
+int Size()
 {
 	int number = 0;
 
 	return number;
 }
 
-public bool isEmpty()
+bool isEmpty()
 {
 
 }
 
-public element Search(element X)
+page Search(page p)
 {
 
 }
 
-public void print()
+void print()
 {
 
 }

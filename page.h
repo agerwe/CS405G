@@ -1,7 +1,7 @@
 #ifndef _PAGE_H_
 #define _PAGE_H_
 
-using namspace std;
+using namespace std;
 
 class page
 {
@@ -26,7 +26,7 @@ class page
 
 		int getKey()
 		{
-			return seartchKey;
+			return searchKey;
 		}
 
 	private:
