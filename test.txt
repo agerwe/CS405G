@@ -1,0 +1,4 @@
+SELECT * FROM student WHERE
+SELECT * FROM student WHERE primary_key =
+SELECT * FROM student WHERE primary_key=
+SELECT * FROM student WHERE primary_key =thisKey
