@@ -3,20 +3,39 @@
 
 using namespace std;
 
-void Insert(page p)
+vector <page> vPages;
+
+void Insert( string g)
 {
+	for(int i = 0; i < vPages.size(); i++)
+	{
+		vPages[i].find();
+	}
+
+	//if there is no page or the pages are full
+		page p;
+		myMEM m;
+		m.allocate(p);
 
 }
 
-void Delete(page p)
+void Delete( string g)
 {
-
+    for(int i = 0; i < vPages.size(); i++)
+        {
+                //vPages[i].find(string g);
+		//if found delete element from page
+		if( true)
+		{
+			//vPages[i].delete();
+			//if page empty deallocate the page
+		}
+        }
 }
 
 int Size()
 {
-	int number = 0;
-
+	int number = vPages[].size();
 	return number;
 }
 
