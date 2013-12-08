@@ -10,10 +10,6 @@ public:
 
 	myBP(void);
 	~myBP(void);
-
-
-
-
 };
 
 #endif
