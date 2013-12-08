@@ -3,12 +3,15 @@
 
 using namespace std;
 
-void Allocate(page p)
+class myMEM
 {
-	page p = new page();
-	p = (page) malloc (1000);
-}
-void Deallocate(page p)
-{
-	delete[] p;
-}
+	public:
+		void Allocate(page p)
+		{
+			//p = (page) malloc (1000);
+		}
+		void Deallocate(page * p)
+		{
+			delete[] p;
+		}
+};
